@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .green
         // Do any additional setup after loading the view.
+        let imageView = UIImageView(image: UIImage.init(named: "bear_first"))
+        view.addSubview(imageView)
+        
     }
 
 
