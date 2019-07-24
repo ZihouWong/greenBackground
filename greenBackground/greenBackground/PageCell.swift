@@ -32,8 +32,7 @@ class PageCell: UICollectionViewCell {
     let descriptionTextView: UITextView = {
         let textView = UITextView()
         textView.translatesAutoresizingMaskIntoConstraints = false
-        textView.text = "this is a textView"
-        textView.backgroundColor = .red
+//        textView.backgroundColor = .red
         textView.isEditable = false
         textView.isScrollEnabled = false
         textView.textAlignment = .center
@@ -51,6 +50,7 @@ class PageCell: UICollectionViewCell {
         
         addSubview(topImageContainerView)
         addSubview(descriptionTextView)
+//        topImageContainerView.backgroundColor = .red
         
         NSLayoutConstraint.activate([
             topImageContainerView.topAnchor.constraint(equalTo: topAnchor),
@@ -67,6 +67,7 @@ class PageCell: UICollectionViewCell {
             ])
         
         topImageContainerView.addSubview(topImageView)
+//        topImageView.backgroundColor = .blue
         NSLayoutConstraint.activate([
             topImageView.centerXAnchor.constraint(equalTo: topImageContainerView.centerXAnchor),
             topImageView.centerYAnchor.constraint(equalTo: topImageContainerView.centerYAnchor),
