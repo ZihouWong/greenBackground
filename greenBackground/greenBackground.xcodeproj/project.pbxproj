@@ -14,6 +14,7 @@
 		8312EFDA22E7734A00D84888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8312EFD822E7734A00D84888 /* LaunchScreen.storyboard */; };
 		8312EFE222E7F71800D84888 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312EFE122E7F71800D84888 /* Page.swift */; };
 		8312EFE422E80C6D00D84888 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312EFE322E80C6D00D84888 /* SwipingController.swift */; };
+		8312EFE622E83E9000D84888 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312EFE522E83E9000D84888 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8312EFDB22E7734A00D84888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8312EFE122E7F71800D84888 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		8312EFE322E80C6D00D84888 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		8312EFE522E83E9000D84888 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				8312EFD822E7734A00D84888 /* LaunchScreen.storyboard */,
 				8312EFDB22E7734A00D84888 /* Info.plist */,
 				8312EFE322E80C6D00D84888 /* SwipingController.swift */,
+				8312EFE522E83E9000D84888 /* PageCell.swift */,
 				8312EFE122E7F71800D84888 /* Page.swift */,
 			);
 			path = greenBackground;
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8312EFD222E7734900D84888 /* ViewController.swift in Sources */,
+				8312EFE622E83E9000D84888 /* PageCell.swift in Sources */,
 				8312EFD022E7734900D84888 /* AppDelegate.swift in Sources */,
 				8312EFE222E7F71800D84888 /* Page.swift in Sources */,
 				8312EFE422E80C6D00D84888 /* SwipingController.swift in Sources */,
