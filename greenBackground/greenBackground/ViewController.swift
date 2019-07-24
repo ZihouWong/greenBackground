@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         let textView = UITextView()
         
         textView.translatesAutoresizingMaskIntoConstraints = false
-        textView.text = "here is a textView"
+        textView.text = "this is a textView"
         textView.backgroundColor = .red
         textView.isEditable = false
         textView.isScrollEnabled = false
